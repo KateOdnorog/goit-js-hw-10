@@ -16,3 +16,26 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+nav {
+  margin: auto;
+  list-style-type: none;
+}
+
+body {
+  background-color: #c8b5ef;
+}
+
+section > a {
+  font-weight: 400;
+  font-size: 13px;
+}
